@@ -28,8 +28,8 @@ rm $API_SOCKET || true
 
 ```bash
 mkdir -p vms/ubuntu-22.04/ && cd vms/ubuntu-22.04/
-wget https://s3.amazonaws.com/spec.ccfc.min/cci-artifacts-20230601/x86_64/ubuntu-22.04.ext4
-wget https://s3.amazonaws.com/spec.ccfc.min/cci-artifacts-20230601/x86_64/ubuntu-22.04.id_rsa
+wget https://s3.amazonaws.com/spec.ccfc.min/ci-artifacts-20230601/x86_64/ubuntu-22.04.ext4
+wget https://s3.amazonaws.com/spec.ccfc.min/ci-artifacts-20230601/x86_64/ubuntu-22.04.id_rsa
 wget https://s3.amazonaws.com/spec.ccfc.min/ci-artifacts-20230601/x86_64/vmlinux-5.10.181
 ```
 
